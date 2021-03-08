@@ -32,9 +32,22 @@
     border-radius: 10px;
 
 }
-
 .menuitem{
     font-family: fantasy;
+}
+
+#stick{
+    float: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+}
+#stick img{
+    height: 30px;
+    width: 30px;
 }
 
 #featurehead{
@@ -71,4 +84,5 @@
     padding: 10px;
     height: 300px;
     width: 450px;
+    border-radius: 20px;
 }
